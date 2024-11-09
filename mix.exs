@@ -117,7 +117,8 @@ defmodule Req.MixProject do
       skip_code_autolink_to: [
         "Req.Test.stub/1",
         "Req.update/2"
-      ]
+      ],
+      formatters: ["html", "epub"]
     ]
   end
 
